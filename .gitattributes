@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.csv text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+
+# Raw benchmark logs should stay byte-for-byte reproducible.
+results/**/raw/*.txt -text
+results/**/perplexity/*.txt -text

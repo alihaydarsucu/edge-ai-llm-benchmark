@@ -1,0 +1,24 @@
+# Model weights are never committed (download or quantize them locally).
+*.gguf
+*.ggml
+*.bin
+*.safetensors
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Generated analysis output
+results/**/plots/*.png
+results/**/plots/*.pdf
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

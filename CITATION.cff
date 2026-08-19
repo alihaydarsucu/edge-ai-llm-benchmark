@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use these benchmarks, please cite this repository. An archived Zenodo release with a DOI is planned."
+title: "Edge AI LLM Inference Benchmarking on T3 Gemstone O1 and Arduino UNO Q"
+type: software
+authors:
+  - family-names: Sucu
+    given-names: Ali Haydar
+repository-code: "https://github.com/alihaydarsucu/t3-gemstone-benchmark"
+url: "https://github.com/alihaydarsucu/t3-gemstone-benchmark"
+license: MIT
+license-url: "https://github.com/alihaydarsucu/t3-gemstone-benchmark/blob/main/LICENSE"
+version: 0.1.0
+date-released: 2026-10-19
+abstract: >-
+  Reproducible edge-AI LLM inference benchmarks using llama.cpp on the T3
+  Gemstone O1 (TI AM67A) and the Arduino UNO Q (Qualcomm QRB2210). The project
+  measures prompt-processing and token-generation throughput across
+  quantization levels, thread counts, and CPU/Vulkan backends, together with
+  perplexity, task accuracy, memory use, and thermal behaviour. The current
+  dataset is preliminary and incomplete; see the README for the exact status.
+keywords:
+  - edge AI
+  - LLM inference
+  - llama.cpp
+  - T3 Gemstone O1
+  - Arduino UNO Q
+  - ARM Cortex-A53
+  - quantization
+  - benchmarking
+  - Vulkan
