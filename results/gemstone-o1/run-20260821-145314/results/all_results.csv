@@ -1,0 +1,5 @@
+quant,backend,ngl,threads,repeat,pp_tps,tg_tps,ram_mb,model_size_mb,timestamp
+q5_k_m,cpu,0,4,1,2.51,1.79,NA,1073,2026-08-21T15:19:45
+q5_k_m,cpu,0,4,2,2.48,1.80,NA,1073,2026-08-21T15:46:25
+q5_k_m,cpu,0,3,1,1.95,1.46,NA,1073,2026-08-21T16:20:07
+q5_k_m,cpu,0,3,2,1.94,1.46,NA,1073,2026-08-21T16:53:51
