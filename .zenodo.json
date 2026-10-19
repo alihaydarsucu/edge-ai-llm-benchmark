@@ -1,13 +1,13 @@
 {
   "title": "Edge AI LLM Inference Benchmarking on T3 Gemstone O1 and Arduino UNO Q",
   "upload_type": "software",
-  "description": "Reproducible edge-AI LLM inference benchmarks using llama.cpp on the T3 Gemstone O1 (TI AM67A) and the Arduino UNO Q (Qualcomm QRB2210). The repository contains the benchmark harness, raw llama.cpp output, aggregated CSV data, perplexity and accuracy evaluation scripts, and analysis tooling. The current dataset is preliminary and incomplete; the README documents exactly which configurations are missing.",
+  "description": "Reproducible edge-AI LLM inference benchmarks using llama.cpp on the T3 Gemstone O1 (TI AM67A) and the Arduino UNO Q (Qualcomm QRB2210). The repository contains the benchmark harness, raw llama.cpp output, aggregated CSV data, perplexity and accuracy evaluation scripts, and analysis tooling. Code is MIT-licensed; benchmark data and documentation are CC BY 4.0. The current dataset is preliminary and incomplete; the README documents exactly which configurations are missing.",
   "creators": [
     {
       "name": "Sucu, Ali Haydar"
     }
   ],
-  "license": "cc-by-4.0",
+  "license": "mit",
   "access_right": "open",
   "keywords": [
     "edge AI",
