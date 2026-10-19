@@ -181,7 +181,7 @@ llama-bench -m qwen2.5-1.5b-instruct-<quant>.gguf -p 512 -n 128 -t <threads> -ng
 - **Threads:** 1, 2, 3, 4.
 - **Repeats:** two independent process invocations per configuration, in
   addition to `llama-bench`'s internal repetitions.
-- **Memory:** peak RSS via GNU `time -v`.
+- **Memory:** peak RSS via GNU `time -v` (install the `time` package).
 - **Quality:** perplexity on WikiText-2 raw (30 chunks, context 512, batch
   2048) and a deterministic 10-prompt accuracy check using the Qwen2.5 ChatML
   template and greedy decoding.

@@ -63,6 +63,7 @@ die() {
 [[ -x "$BENCH_BIN" ]] || die "llama-bench not found at $BENCH_BIN"
 
 mkdir -p "$RESULTS_DIR" "$LOGS_DIR" "$RAW_DIR"
+: > "$SUMMARY"
 
 # ---------------------------------------------------------------------------
 # Environment manifest
@@ -148,12 +149,14 @@ echo "tag,start_ts,end_ts" > "$BOUNDARIES_CSV"
     echo "Started: $(date -Is)"
     echo "Configurations: $TOTAL_CONFIGS (${#AVAILABLE_QUANTS[@]} quant x ${#BACKEND_LIST[@]} backend x ${#THREAD_LIST[@]} threads x $REPEATS repeats)"
     echo
-} | tee "$SUMMARY"
+} | tee -a "$SUMMARY"
 
 # GNU time is optional; RAM stays NA when it is unavailable.
 TIME_BIN=""
 if [[ -x /usr/bin/time ]] && /usr/bin/time -v true >/dev/null 2>&1; then
     TIME_BIN="/usr/bin/time"
+else
+    echo "WARNING: GNU time not found; ram_mb will be NA. Install the 'time' package." | tee -a "$SUMMARY"
 fi
 
 parse_tps() {

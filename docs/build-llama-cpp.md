@@ -10,7 +10,7 @@ On a Debian-based image:
 
 ```bash
 sudo apt update
-sudo apt install -y build-essential cmake git libcurl4-openssl-dev
+sudo apt install -y build-essential cmake git libcurl4-openssl-dev time
 ```
 
 For the Vulkan backend, also install the Vulkan loader and shader compiler:
