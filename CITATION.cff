@@ -5,10 +5,10 @@ type: software
 authors:
   - family-names: Sucu
     given-names: Ali Haydar
-repository-code: "https://github.com/alihaydarsucu/t3-gemstone-benchmark"
-url: "https://github.com/alihaydarsucu/t3-gemstone-benchmark"
+repository-code: "https://github.com/alihaydarsucu/edge-ai-llm-benchmark"
+url: "https://github.com/alihaydarsucu/edge-ai-llm-benchmark"
 license: MIT
-license-url: "https://github.com/alihaydarsucu/t3-gemstone-benchmark/blob/main/LICENSE"
+license-url: "https://github.com/alihaydarsucu/edge-ai-llm-benchmark/blob/main/LICENSE"
 version: 0.1.0
 date-released: 2026-10-19
 abstract: >-

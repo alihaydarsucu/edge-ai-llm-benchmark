@@ -22,7 +22,7 @@ License text: <https://creativecommons.org/licenses/by/4.0/legalcode.en>
 Suggested attribution:
 
 > Sucu, Ali Haydar. *Edge AI LLM Inference Benchmarking on T3 Gemstone O1 and
-> Arduino UNO Q*. 2026. https://github.com/alihaydarsucu/t3-gemstone-benchmark
+> Arduino UNO Q*. 2026. https://github.com/alihaydarsucu/edge-ai-llm-benchmark
 > (CC BY 4.0)
 
 The source code in `scripts/` and `analysis/` is licensed separately under the

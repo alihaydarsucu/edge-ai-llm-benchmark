@@ -22,7 +22,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/alihaydarsucu/t3-gemstone-benchmark",
+      "identifier": "https://github.com/alihaydarsucu/edge-ai-llm-benchmark",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

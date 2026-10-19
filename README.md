@@ -2,7 +2,14 @@
 
 **llama.cpp on the T3 Gemstone O1 and Arduino UNO Q**
 
-[![Validate results](https://github.com/alihaydarsucu/t3-gemstone-benchmark/actions/workflows/validate-results.yml/badge.svg)](https://github.com/alihaydarsucu/t3-gemstone-benchmark/actions/workflows/validate-results.yml)
+This repository contains reproducible benchmarks of small instruction-tuned
+LLMs on low-power ARM single-board computers. It measures prompt-processing
+and token-generation throughput, peak memory, perplexity, task accuracy, and
+thermal behaviour for Qwen2.5-1.5B-Instruct across quantization levels, thread
+counts, and CPU/Vulkan backends. The first platform is the T3 Gemstone O1; the
+primary comparison is the Arduino UNO Q.
+
+[![Validate results](https://github.com/alihaydarsucu/edge-ai-llm-benchmark/actions/workflows/validate-results.yml/badge.svg)](https://github.com/alihaydarsucu/edge-ai-llm-benchmark/actions/workflows/validate-results.yml)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](DATA-LICENSE.md)
 [![Status: work in progress](https://img.shields.io/badge/status-work%20in%20progress-orange.svg)](#project-status)
@@ -16,9 +23,7 @@
 
 ## Overview
 
-This project measures how well small instruction-tuned language models run on
-low-power ARM single-board computers. The goal is a reproducible dataset and a
-technical report that answer a practical question:
+The project answers a practical question:
 
 > *What throughput and quality can you expect from a 1.5 B-parameter LLM on a
 > four-core Cortex-A53 edge board, and how does it change with quantization,
@@ -199,8 +204,8 @@ Read the full protocol, including threats to validity, in
 ### 1. Clone and build llama.cpp
 
 ```bash
-git clone https://github.com/alihaydarsucu/t3-gemstone-benchmark.git
-cd t3-gemstone-benchmark
+git clone https://github.com/alihaydarsucu/edge-ai-llm-benchmark.git
+cd edge-ai-llm-benchmark
 
 git clone https://github.com/ggml-org/llama.cpp.git
 cd llama.cpp
@@ -356,7 +361,7 @@ Until then, cite the repository:
   author  = {Sucu, Ali Haydar},
   title   = {Edge AI LLM Inference Benchmarking on T3 Gemstone O1 and Arduino UNO Q},
   year    = {2026},
-  url     = {https://github.com/alihaydarsucu/t3-gemstone-benchmark},
+  url     = {https://github.com/alihaydarsucu/edge-ai-llm-benchmark},
   note    = {Work in progress; preliminary and incomplete dataset}
 }
 ```
